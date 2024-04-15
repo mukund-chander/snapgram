@@ -1,3 +1,4 @@
+import { log } from "console";
 import AuthLayout from "./_auth/AuthLayout";
 import SigninForm from "./_auth/forms/SigninForm";
 import SignupForm from "./_auth/forms/SignupForm";
@@ -7,6 +8,8 @@ import "./globals.css";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
+  console.log("sup");
+
   return (
     <main className="flex h-screen">
       <Routes>
